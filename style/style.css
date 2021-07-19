@@ -37,6 +37,7 @@ body {
 .marca {
     font-family: 'Stencil Std', fantasy;
     font-size: 70px;
+    color: rgb(133, 25, 25);
 }
 
 @keyframes opacity {
@@ -59,6 +60,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: black;
     
 }
 
@@ -95,6 +97,7 @@ body {
 .main-description {
     text-align: center;
     margin: 30px 10%;
+    color: black;
 }
 
 .register {
@@ -119,7 +122,7 @@ body {
     border: 1px solid black;
     box-shadow: 10px 5px 5px #da83b0;
     width: 200px;
-    background-color: #b34418;
+    background-color:#ad3d1b;
     color: #f8e6ed;
 }
 
