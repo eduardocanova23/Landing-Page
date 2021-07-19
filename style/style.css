@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #4b1c1c;
+    color: blanchedalmond;
+}
+
+.container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 20px;
+}
+
+
+.cesta-imagem {
+    width: 10%;
+}
+
+.main {
+    width: 90%;
+    height: 90%;
+    background-color: #F8D5E1;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #35090c;
+    color: #7a1e2d;
+
+}
+
+.marca {
+    font-family: 'Stencil Std', fantasy;
+    font-size: 70px;
+}
+
+@keyframes opacity {
+    0% {
+    opacity: 1;
+    }
+    
+    50% {
+    opacity: 0
+    }
+    
+    100% {
+    opacity: 1;
+    }
+}
+
+.centralized-itens {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.menu-sections {
+    width: 100%;
+    list-style: none;
+    background-color: #F6BED3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #86331a;    
+}
+
+.menu-itens li {
+    text-align: center;
+    display: inline;
+    margin: 5px;
+}
+
+
+.freeshipping-banner {
+    height: 35px;
+    margin: 0;
+    background-color: rgb(121, 17, 17);
+    
+}
+
+.banner-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main-description {
+    text-align: center;
+    margin: 30px 10%;
+}
+
+.register {
+    display: block;
+    justify-content: center;
+    color: #8b162a;
+}
+
+.card-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px #da83b0;
+    width: 200px;
+    background-color: #b34418;
+    color: #f8e6ed;
+}
+
+.description {
+    text-align: center;
+    margin: 8px 5px;
+    font-size: 15px;
+}
+
+.product-image {
+    width: 100px;
+    fill: #95141a;
+}
+
+.navigate-button {
+    border-radius: 10px;
+    background-color: #270409;
+    border: solid #18020d;
+    padding: 5px;
+    margin: 5px 0;
+    color: #f8e6ed;
+    font-weight: 600;
+}
+
+.apply-button:hover {
+    cursor: pointer;
+    background-color: #F6BED3;
+    color: #2f130a;
+}
+
+.form {
+    margin-top: 35px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.input-email {
+    width: 400px;
+    height: 40px;
+    margin-right: 0;
+    background-color: #861a2c;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    color: #f8e6ed;
+}
+
+.register-button {
+    width: 150px;
+    height: 42px;
+    margin-left: 0;
+    background-color: #661111;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    color: #f8e6ed;
+    font-size: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    color: #420c0f;
+    justify-content: space-around;
+}
+
+
+.footer-text {
+    font-size: 13px;
+}
+
+.social-icons {
+    fill: #f8e6ed;
+}
+
+@media (max-width: 500px) {
+
+
+    .input-email, .register-button{
+        width: 80%;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .credits {
+        margin: 10%;
+        text-align: center;
+    }
+}
+
