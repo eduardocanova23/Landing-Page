@@ -20,8 +20,8 @@ form.addEventListener('submit', (evento) =>{
     </div>`
 
     
-    let titulo = document.getElementById('title-form')
-    titulo.parentNode.removeChild(titulo);
+    //let titulo = document.getElementById('title-form')
+    //titulo.parentNode.removeChild(titulo);
 
     coletorCadastro.innerHTML = carregando
 

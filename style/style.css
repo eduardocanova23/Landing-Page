@@ -122,7 +122,7 @@ body {
     border: 1px solid black;
     box-shadow: 10px 5px 5px #da83b0;
     width: 200px;
-    background-color:#ad3d1b;
+    background-color:#282a36;
     color: #f8e6ed;
 }
 
@@ -177,6 +177,12 @@ body {
     border: none;
     color: #f8e6ed;
     font-size: 15px;
+}
+
+.navigate-button:hover {
+    cursor: pointer;
+    background-color: #F6BED3;
+    color: #16233A;
 }
 
 .footer {
