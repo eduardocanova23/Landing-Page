@@ -40,19 +40,6 @@ body {
     color: rgb(133, 25, 25);
 }
 
-@keyframes opacity {
-    0% {
-    opacity: 1;
-    }
-    
-    50% {
-    opacity: 0
-    }
-    
-    100% {
-    opacity: 1;
-    }
-}
 
 .centralized-itens {
     width: 100%;
